@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F13BF29258228D700623A50 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F13BF28258228D700623A50 /* AppDelegate.m */; };
+		5F13BF2C258228D700623A50 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F13BF2B258228D700623A50 /* SceneDelegate.m */; };
+		5F13BF2F258228D700623A50 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F13BF2E258228D700623A50 /* ViewController.m */; };
+		5F13BF32258228D700623A50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F13BF30258228D700623A50 /* Main.storyboard */; };
+		5F13BF34258228D900623A50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F13BF33258228D900623A50 /* Assets.xcassets */; };
+		5F13BF37258228D900623A50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F13BF35258228D900623A50 /* LaunchScreen.storyboard */; };
+		5F13BF3A258228D900623A50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F13BF39258228D900623A50 /* main.m */; };
+		5F13BF452583182B00623A50 /* Phone.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F13BF442583182B00623A50 /* Phone.m */; };
+		5F13BF4A2583183A00623A50 /* Store.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F13BF492583183A00623A50 /* Store.m */; };
+		5F13BF502583185800623A50 /* PhoneFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F13BF4F2583185800623A50 /* PhoneFactory.m */; };
+		5F13BF542583192E00623A50 /* HWPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F13BF532583192E00623A50 /* HWPhone.m */; };
+		5F13BF582583197300623A50 /* IPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F13BF572583197300623A50 /* IPhone.m */; };
+		5F13BF5C258319A600623A50 /* MIPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F13BF5B258319A600623A50 /* MIPhone.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5F13BF24258228D700623A50 /* 模式1-简单工厂模式.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "模式1-简单工厂模式.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F13BF27258228D700623A50 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5F13BF28258228D700623A50 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5F13BF2A258228D700623A50 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		5F13BF2B258228D700623A50 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		5F13BF2D258228D700623A50 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5F13BF2E258228D700623A50 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5F13BF31258228D700623A50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F13BF33258228D900623A50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F13BF36258228D900623A50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5F13BF38258228D900623A50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F13BF39258228D900623A50 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5F13BF432583182B00623A50 /* Phone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Phone.h; sourceTree = "<group>"; };
+		5F13BF442583182B00623A50 /* Phone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Phone.m; sourceTree = "<group>"; };
+		5F13BF482583183A00623A50 /* Store.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Store.h; sourceTree = "<group>"; };
+		5F13BF492583183A00623A50 /* Store.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Store.m; sourceTree = "<group>"; };
+		5F13BF4E2583185800623A50 /* PhoneFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhoneFactory.h; sourceTree = "<group>"; };
+		5F13BF4F2583185800623A50 /* PhoneFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhoneFactory.m; sourceTree = "<group>"; };
+		5F13BF522583192E00623A50 /* HWPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWPhone.h; sourceTree = "<group>"; };
+		5F13BF532583192E00623A50 /* HWPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWPhone.m; sourceTree = "<group>"; };
+		5F13BF562583197300623A50 /* IPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPhone.h; sourceTree = "<group>"; };
+		5F13BF572583197300623A50 /* IPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IPhone.m; sourceTree = "<group>"; };
+		5F13BF5A258319A600623A50 /* MIPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MIPhone.h; sourceTree = "<group>"; };
+		5F13BF5B258319A600623A50 /* MIPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MIPhone.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F13BF21258228D700623A50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F13BF1B258228D700623A50 = {
+			isa = PBXGroup;
+			children = (
+				5F13BF26258228D700623A50 /* 模式1-简单工厂模式 */,
+				5F13BF25258228D700623A50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F13BF25258228D700623A50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F13BF24258228D700623A50 /* 模式1-简单工厂模式.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F13BF26258228D700623A50 /* 模式1-简单工厂模式 */ = {
+			isa = PBXGroup;
+			children = (
+				5F13BF2D258228D700623A50 /* ViewController.h */,
+				5F13BF2E258228D700623A50 /* ViewController.m */,
+				5F13BF4D2583184900623A50 /* Factory */,
+				5F13BF472583183100623A50 /* Client */,
+				5F13BF422583181200623A50 /* Product */,
+				5F13BF41258317E100623A50 /* other */,
+				5F13BF38258228D900623A50 /* Info.plist */,
+			);
+			path = "模式1-简单工厂模式";
+			sourceTree = "<group>";
+		};
+		5F13BF41258317E100623A50 /* other */ = {
+			isa = PBXGroup;
+			children = (
+				5F13BF27258228D700623A50 /* AppDelegate.h */,
+				5F13BF28258228D700623A50 /* AppDelegate.m */,
+				5F13BF2A258228D700623A50 /* SceneDelegate.h */,
+				5F13BF2B258228D700623A50 /* SceneDelegate.m */,
+				5F13BF30258228D700623A50 /* Main.storyboard */,
+				5F13BF33258228D900623A50 /* Assets.xcassets */,
+				5F13BF35258228D900623A50 /* LaunchScreen.storyboard */,
+				5F13BF39258228D900623A50 /* main.m */,
+			);
+			path = other;
+			sourceTree = "<group>";
+		};
+		5F13BF422583181200623A50 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				5F13BF432583182B00623A50 /* Phone.h */,
+				5F13BF442583182B00623A50 /* Phone.m */,
+				5F13BF522583192E00623A50 /* HWPhone.h */,
+				5F13BF532583192E00623A50 /* HWPhone.m */,
+				5F13BF562583197300623A50 /* IPhone.h */,
+				5F13BF572583197300623A50 /* IPhone.m */,
+				5F13BF5A258319A600623A50 /* MIPhone.h */,
+				5F13BF5B258319A600623A50 /* MIPhone.m */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		5F13BF472583183100623A50 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				5F13BF482583183A00623A50 /* Store.h */,
+				5F13BF492583183A00623A50 /* Store.m */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		5F13BF4D2583184900623A50 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				5F13BF4E2583185800623A50 /* PhoneFactory.h */,
+				5F13BF4F2583185800623A50 /* PhoneFactory.m */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F13BF23258228D700623A50 /* 模式1-简单工厂模式 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F13BF3D258228D900623A50 /* Build configuration list for PBXNativeTarget "模式1-简单工厂模式" */;
+			buildPhases = (
+				5F13BF20258228D700623A50 /* Sources */,
+				5F13BF21258228D700623A50 /* Frameworks */,
+				5F13BF22258228D700623A50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "模式1-简单工厂模式";
+			productName = "模式1-简单工厂模式";
+			productReference = 5F13BF24258228D700623A50 /* 模式1-简单工厂模式.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F13BF1C258228D700623A50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					5F13BF23258228D700623A50 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 5F13BF1F258228D700623A50 /* Build configuration list for PBXProject "模式1-简单工厂模式" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F13BF1B258228D700623A50;
+			productRefGroup = 5F13BF25258228D700623A50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F13BF23258228D700623A50 /* 模式1-简单工厂模式 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F13BF22258228D700623A50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F13BF37258228D900623A50 /* LaunchScreen.storyboard in Resources */,
+				5F13BF34258228D900623A50 /* Assets.xcassets in Resources */,
+				5F13BF32258228D700623A50 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F13BF20258228D700623A50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F13BF2F258228D700623A50 /* ViewController.m in Sources */,
+				5F13BF452583182B00623A50 /* Phone.m in Sources */,
+				5F13BF5C258319A600623A50 /* MIPhone.m in Sources */,
+				5F13BF582583197300623A50 /* IPhone.m in Sources */,
+				5F13BF29258228D700623A50 /* AppDelegate.m in Sources */,
+				5F13BF4A2583183A00623A50 /* Store.m in Sources */,
+				5F13BF3A258228D900623A50 /* main.m in Sources */,
+				5F13BF542583192E00623A50 /* HWPhone.m in Sources */,
+				5F13BF502583185800623A50 /* PhoneFactory.m in Sources */,
+				5F13BF2C258228D700623A50 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5F13BF30258228D700623A50 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F13BF31258228D700623A50 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5F13BF35258228D900623A50 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F13BF36258228D900623A50 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F13BF3B258228D900623A50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5F13BF3C258228D900623A50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F13BF3E258228D900623A50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "模式1-简单工厂模式/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "store.mnu.--1-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F13BF3F258228D900623A50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "模式1-简单工厂模式/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "store.mnu.--1-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F13BF1F258228D700623A50 /* Build configuration list for PBXProject "模式1-简单工厂模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F13BF3B258228D900623A50 /* Debug */,
+				5F13BF3C258228D900623A50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F13BF3D258228D900623A50 /* Build configuration list for PBXNativeTarget "模式1-简单工厂模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F13BF3E258228D900623A50 /* Debug */,
+				5F13BF3F258228D900623A50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F13BF1C258228D700623A50 /* Project object */;
+}

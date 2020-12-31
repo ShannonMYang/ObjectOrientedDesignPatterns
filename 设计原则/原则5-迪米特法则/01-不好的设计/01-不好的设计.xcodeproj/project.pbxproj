@@ -67,23 +67,31 @@
 		5F0E2E34251468E0006C2F2D /* 01-不好的设计 */ = {
 			isa = PBXGroup;
 			children = (
-				5F0E2E35251468E0006C2F2D /* AppDelegate.h */,
-				5F0E2E36251468E0006C2F2D /* AppDelegate.m */,
-				5F0E2E38251468E0006C2F2D /* SceneDelegate.h */,
-				5F0E2E39251468E0006C2F2D /* SceneDelegate.m */,
+				5F1AFD72259D74A0008A96BC /* other */,
 				5F0E2E3B251468E0006C2F2D /* ViewController.h */,
 				5F0E2E3C251468E0006C2F2D /* ViewController.m */,
 				5FB16E5A255E7CEE0039668B /* Car.h */,
 				5FB16E5B255E7CEE0039668B /* Car.m */,
 				5FB16E5E255E7D900039668B /* GasEngine.h */,
 				5FB16E5F255E7D900039668B /* GasEngine.m */,
+				5F0E2E46251468E1006C2F2D /* Info.plist */,
+			);
+			path = "01-不好的设计";
+			sourceTree = "<group>";
+		};
+		5F1AFD72259D74A0008A96BC /* other */ = {
+			isa = PBXGroup;
+			children = (
+				5F0E2E35251468E0006C2F2D /* AppDelegate.h */,
+				5F0E2E36251468E0006C2F2D /* AppDelegate.m */,
+				5F0E2E38251468E0006C2F2D /* SceneDelegate.h */,
+				5F0E2E39251468E0006C2F2D /* SceneDelegate.m */,
 				5F0E2E3E251468E0006C2F2D /* Main.storyboard */,
 				5F0E2E41251468E1006C2F2D /* Assets.xcassets */,
 				5F0E2E43251468E1006C2F2D /* LaunchScreen.storyboard */,
-				5F0E2E46251468E1006C2F2D /* Info.plist */,
 				5F0E2E47251468E1006C2F2D /* main.m */,
 			);
-			path = "01-不好的设计";
+			path = other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

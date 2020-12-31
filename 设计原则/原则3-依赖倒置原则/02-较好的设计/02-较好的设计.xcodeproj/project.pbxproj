@@ -71,10 +71,7 @@
 		5F0E2E5A25146907006C2F2D /* 02-较好的设计 */ = {
 			isa = PBXGroup;
 			children = (
-				5F0E2E5B25146907006C2F2D /* AppDelegate.h */,
-				5F0E2E5C25146907006C2F2D /* AppDelegate.m */,
-				5F0E2E5E25146907006C2F2D /* SceneDelegate.h */,
-				5F0E2E5F25146907006C2F2D /* SceneDelegate.m */,
+				5F1AFD6C259D7450008A96BC /* other */,
 				5F0E2E6125146907006C2F2D /* ViewController.h */,
 				5F0E2E6225146907006C2F2D /* ViewController.m */,
 				5FC29B3F255BDABF0071DC81 /* DeveloperProtocol.h */,
@@ -84,13 +81,24 @@
 				5FC29B42255BDB920071DC81 /* FrondEndDeveloper.m */,
 				5FC29B41255BDB920071DC81 /* Project.h */,
 				5FC29B43255BDB920071DC81 /* Project.m */,
+				5F0E2E6C25146908006C2F2D /* Info.plist */,
+			);
+			path = "02-较好的设计";
+			sourceTree = "<group>";
+		};
+		5F1AFD6C259D7450008A96BC /* other */ = {
+			isa = PBXGroup;
+			children = (
+				5F0E2E5B25146907006C2F2D /* AppDelegate.h */,
+				5F0E2E5C25146907006C2F2D /* AppDelegate.m */,
+				5F0E2E5E25146907006C2F2D /* SceneDelegate.h */,
+				5F0E2E5F25146907006C2F2D /* SceneDelegate.m */,
 				5F0E2E6425146907006C2F2D /* Main.storyboard */,
 				5F0E2E6725146908006C2F2D /* Assets.xcassets */,
 				5F0E2E6925146908006C2F2D /* LaunchScreen.storyboard */,
-				5F0E2E6C25146908006C2F2D /* Info.plist */,
 				5F0E2E6D25146908006C2F2D /* main.m */,
 			);
-			path = "02-较好的设计";
+			path = other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
